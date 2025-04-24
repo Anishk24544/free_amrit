@@ -211,7 +211,7 @@ const currentDate=Date.now()
               <div className="relative">
                 
               <motion.img
-      src={herosection.src} // Replace with your image path
+      src={herosection.src} 
       alt="Rotating"
       initial={{ rotate: 0 }}
       animate={{ rotate: 15 }}
